@@ -48,19 +48,29 @@ export const Hero = () => {
               ANANYA NAGA RAJ
             </motion.h1>
 
+            {/* ATS-OPTIMIZED SUBTITLE */}
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+              className="text-xl md:text-2xl text-purple-300 font-semibold"
+            >
+              Software Engineer | AI & Machine Learning Engineer | LLM & RAG Systems
+            </motion.p>
+
             <div className="text-2xl md:text-3xl font-light">
               <span className="text-gray-300">Building </span>
               <TypeAnimation
                 sequence={[
-                  "Scalable Web Applications",
+                  "Production-Ready LLM Applications",
                   2000,
-                  "AI-Powered Solutions",
+                  "RAG Architectures",
                   2000,
-                  "Full-Stack Systems",
+                  "Full-Stack AI Systems",
                   2000,
-                  "Cloud Infrastructure",
+                  "Scalable ML Pipelines",
                   2000,
-                  "Intelligent Software",
+                  "Cloud-Native Solutions",
                   2000,
                 ]}
                 wrapper="span"
@@ -70,13 +80,18 @@ export const Hero = () => {
               />
             </div>
 
+            {/* ATS-OPTIMIZED DESCRIPTION */}
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
               className="text-gray-300 text-lg leading-relaxed max-w-2xl"
             >
-              Software Engineer and Computer Science graduate student at Syracuse University with 2+ years of experience building scalable applications, AI/ML systems, and full-stack solutions. Proficient in Python, JavaScript, React, and cloud technologies with a strong foundation in machine learning and modern software development practices.
+              Software Engineer & AI/ML Engineer with experience building production-ready LLM-powered applications, 
+              RAG architectures, and full-stack systems using Python, React, and cloud technologies. 
+              Strong background in machine learning, NLP, and deep learning with hands-on experience in 
+              Whisper, Transformers, PyTorch, TensorFlow, vector databases, and REST APIs. 
+              Proven ability to deliver scalable, high-impact solutions across AI research and real-world applications.
             </motion.p>
 
             <motion.div
@@ -94,16 +109,21 @@ export const Hero = () => {
                 </Button>
               </ScrollLink>
 
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white font-semibold px-8 py-6 text-lg rounded-full transition-all"
-                asChild
+              {/* FIXED RESUME DOWNLOAD BUTTON */}
+              <a 
+                href="/Ananya_NagaRaj_Resume.pdf" 
+                download="Ananya_NagaRaj_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <a href="/Ananya_Naga_Raj_Resume.pdf" download>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white font-semibold px-8 py-6 text-lg rounded-full transition-all"
+                >
                   Download Resume
-                </a>
-              </Button>
+                </Button>
+              </a>
             </motion.div>
           </motion.div>
 
@@ -126,7 +146,7 @@ export const Hero = () => {
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-purple-500 shadow-2xl shadow-purple-500/50">
                 <img
                   src={profileImage}
-                  alt="Ananya Naga Raj"
+                  alt="Ananya Naga Raj - Software Engineer and AI/ML Engineer"
                   className="w-full h-full object-cover"
                 />
                 {/* Overlay */}
