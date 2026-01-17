@@ -1,73 +1,163 @@
-# Welcome to your yashwanth project
+# 🚀 Ananya Naga Raj - Portfolio
 
-## Project info
+My personal portfolio website showcasing AI/ML engineering projects, technical skills, and professional experience.
 
-**URL**: https://yashwanth/projects/d40f7dfa-0bcd-446c-bcdb-9a948875b8e7
+[![Live Site](https://img.shields.io/badge/Live-Portfolio-purple)](https://ananya-nagaraj-portfolio-3fje.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## How can I edit this code?
+## 🌐 Live Demo
 
-There are several ways of editing your application.
+**[View Portfolio →](https://ananya-nagaraj-portfolio-3fje.vercel.app/)**
 
-**Use yashwanth**
+## ✨ Features
 
-Simply visit the [yashwanth Project](https://yashwant/projects/d40f7dfa-0bcd-446c-bcdb-9a948875b8e7) and start prompting.
+- 🎨 Modern, responsive design with purple/pink gradient theme
+- 🚀 Smooth animations and transitions
+- 📱 Mobile-first responsive layout
+- 🌓 Dark mode optimized
+- ⚡ Fast loading with Vite
+- 🎯 SEO optimized
 
-Changes made via yashwanth will be committed automatically to this repo.
+## 🛠️ Built With
 
-**Use your preferred IDE**
+**Frontend:**
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion (animations)
+- Lucide React (icons)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in yashwanth.
+**Deployment:**
+- Vercel
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📂 Project Structure
+```
+portfolio/
+├── public/
+│   ├── image1.jpeg (profile photo)
+│   └── logo.png (favicon)
+├── src/
+│   ├── components/
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Certifications.tsx
+│   │   ├── Education.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   └── preloader.tsx
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+## 🚀 Quick Start
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
+```bash
+Node.js 18+
+npm or yarn
+```
 
-**Use GitHub Codespaces**
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/Ananyanagaraj11/portfolio.git
+cd portfolio
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Install dependencies
+npm install
 
-## What technologies are used for this project?
+# Run development server
+npm run dev
 
-This project is built with:
+# Build for production
+npm run build
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Preview production build
+npm run preview
+```
 
-## How can I deploy this project?
+## 🎯 Sections
 
-Simply open [yashwanth](https://yashwanth/projects/d40f7dfa-0bcd-446c-bcdb-9a948875b8e7) and click on Share -> Publish.
+- **Hero** - Introduction with animated text
+- **About** - Professional summary and stats
+- **Experience** - Work history and achievements
+- **Projects** - Featured AI/ML projects with live demos
+- **Skills** - Technical skills organized by category
+- **Certifications** - Professional certifications
+- **Education** - Academic background
+- **Contact** - Get in touch section
 
-## Can I connect a custom domain to my yashwanth project?
+## 🌟 Featured Projects
 
-Yes, you can!
+### 1. SafeVoice AI
+Voice-based harassment detection using Whisper + NLP
+- **Demo:** http://safevoiceai.netlify.app/
+- **GitHub:** https://github.com/Ananyanagaraj11/safevoice-ai
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 2. IoT Attack Detection
+99.90% accuracy on CICIDS2017 dataset
+- **Demo:** https://ananyanagaraj11.github.io/iot-attack-detection-dashboard/
+- **GitHub:** https://github.com/Ananyanagaraj11/iot-attack-detection-dashboard
 
-Read more here: [Setting up a custom domain](https://docs.yashwanth/features/custom-domain#custom-domain)
+### 3. Medical NER with BioBERT
+92% F1-score on BC5CDR dataset
+- **Demo:** https://medical-ner-dashboard.vercel.app/
+- **GitHub:** https://github.com/Ananyanagaraj11/medical-ner-biobert
+
+## 📧 Contact
+
+**Ananya Naga Raj**
+- 🌐 Portfolio: [ananya-nagaraj-portfolio-3fje.vercel.app](https://ananya-nagaraj-portfolio-3fje.vercel.app/)
+- 💼 LinkedIn: [linkedin.com/in/AnanyaNagaRaj](https://linkedin.com/in/AnanyaNagaRaj)
+- 💻 GitHub: [github.com/Ananyanagaraj11](https://github.com/Ananyanagaraj11)
+- 📧 Email: annagara@syr.edu
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Design inspiration from modern portfolio trends
+- Icons by Lucide React
+- Animations powered by Framer Motion
+
+---
+
+⭐ **Star this repo if you find it helpful!**
+```
+
+---
+
+## 🔐 **Add MIT License:**
+
+Create a `LICENSE` file:
+```
+MIT License
+
+Copyright (c) 2025 Ananya Naga Raj
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
