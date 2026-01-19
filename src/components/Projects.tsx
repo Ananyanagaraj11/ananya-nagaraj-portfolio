@@ -82,6 +82,34 @@ const projects = [
     github: "https://github.com/Ananyanagaraj11/medical-ner-biobert",
     demo: "https://medical-ner-dashboard.vercel.app/",
     impact: "high"
+  },
+  {
+    title: "📊 BizPulse Analytics Dashboard",
+    description: [
+      "Designed a dark-mode, KPI-first analytics dashboard with Streamlit and Plotly to deliver SaaS-style business insights",
+      "Implemented KPI cards, charts, maps, and a priority action list with filters for fast decision-making",
+      "Enabled CSV or database-backed data sources with sample exports for analysis workflows",
+      "Shipped a clean deployment workflow for Streamlit Community Cloud and Docker"
+    ],
+    tech: ["Python", "Pandas", "Streamlit", "Plotly", "Docker"],
+    metrics: "KPI Cards • Interactive Charts • CSV/DB Support",
+    github: "https://github.com/Ananyanagaraj11/BizPulse-Analytics-Dashboard",
+    demo: "https://bizpulse-analytics-dashboard-5c8cvwu7drn9yymrjydmd4.streamlit.app/",
+    impact: "high"
+  },
+  {
+    title: "🧠 Agentic Research Intelligence Dashboard",
+    description: [
+      "Built an end-to-end pipeline for research dataset ingestion, model training, and evaluation with agentic insights",
+      "Delivered a FastAPI backend powering analytics and recommendations for a React + Vite dashboard",
+      "Added deployment-ready configuration for Render (API) and Vercel (frontend) with environment-based wiring",
+      "Structured training workflows for multi-class paper classification and error analysis"
+    ],
+    tech: ["Python", "FastAPI", "React", "Vite", "Machine Learning", "Data Pipelines"],
+    metrics: "Dataset Ingestion • Model Training • Live Dashboard",
+    github: "https://github.com/Ananyanagaraj11/agentic-research-intelligence-dashboard",
+    demo: "https://frontend-two-gilt-97.vercel.app",
+    impact: "high"
   }
 ];
 
