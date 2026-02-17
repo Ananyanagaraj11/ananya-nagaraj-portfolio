@@ -56,6 +56,20 @@ const projects = [
     impact: "high"
   },
   {
+    title: "🛡️ SOC Lite - AI-Powered Intrusion Detection",
+    description: [
+      "Built end-to-end ML pipeline for network intrusion detection using PyTorch MLP on CICIDS2017; FastAPI backend with CSV batch analysis and full-dataset processing",
+      "Developed SOC-style dashboard with KPIs, attack distribution charts, confidence buckets, and real-time alerts using Plotly.js and vanilla JS",
+      "Deployed frontend on GitHub Pages and backend on Render with CORS and configurable API URL; supports local run (localhost:8000 + 9001) for development",
+      "Implemented /analyze/csv and /predict endpoints with model artifacts, scaler, and feature alignment for production-ready inference"
+    ],
+    tech: ["Python", "PyTorch", "FastAPI", "pandas", "scikit-learn", "Plotly.js", "HTML/CSS/JS", "Render", "GitHub Pages"],
+    metrics: "CICIDS2017 • Full CSV Analysis • Live Demo",
+    github: "https://github.com/Ananyanagaraj11/soc-lite-ai-ids",
+    demo: "https://ananyanagaraj11.github.io/ai-cyber-threat-dashboard/",
+    impact: "high"
+  },
+  {
     title: "💄 GlamScan - AI Fashion Recommendation",
     description: [
       "Built ML-powered fashion recommendation engine serving personalized product suggestions to 1,000+ users using collaborative filtering and computer vision",

@@ -67,8 +67,8 @@ npm or yarn
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/Ananyanagaraj11/portfolio.git
-cd portfolio
+git clone https://github.com/Ananyanagaraj11/ananya-nagaraj-portfolio.git
+cd ananya-nagaraj-portfolio
 
 # Install dependencies
 npm install
@@ -106,7 +106,12 @@ Voice-based harassment detection using Whisper + NLP
 - **Demo:** https://ananyanagaraj11.github.io/iot-attack-detection-dashboard/
 - **GitHub:** https://github.com/Ananyanagaraj11/iot-attack-detection-dashboard
 
-### 3. Medical NER with BioBERT
+### 3. SOC Lite - AI-Powered Intrusion Detection
+PyTorch MLP + FastAPI + Plotly; CICIDS2017 CSV analysis, SOC-style dashboard
+- **Demo:** https://ananyanagaraj11.github.io/ai-cyber-threat-dashboard/
+- **GitHub:** https://github.com/Ananyanagaraj11/soc-lite-ai-ids
+
+### 4. Medical NER with BioBERT
 92% F1-score on BC5CDR dataset
 - **Demo:** https://medical-ner-dashboard.vercel.app/
 - **GitHub:** https://github.com/Ananyanagaraj11/medical-ner-biobert
